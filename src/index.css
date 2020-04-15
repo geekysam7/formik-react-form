@@ -1,13 +1,111 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: 'Dancing Script', cursive;
+    background-image: url("./img/taylor_swift_3.jpg");
+    backdrop-filter: blur(2.5px);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    z-index: -4;
+}
+
+.center-form {
+    color: white;
+    height: 500px;
+    display: flex;
+    width: 500px;
+    padding: 20px 0;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 5;
+}
+
+.at-form-back {
+    background:rgba(255, 255, 255, .2);
+    z-index: -1;
+    border-radius: 5%;
+}
+
+.input-area {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border: 5px solid;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    border-color: orange;
+    border-radius: 45px;
+    width: 90%;
+
+}
+
+.form-label {
+    margin-left: 15px;
+    font-size: 1.5rem;
+}
+
+.btn {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.2rem;
+    align-self: center;
+    background-color: orange;
+    margin-bottom: 10px;
+    border: 5px solid orange;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 45px;
+    width: 50%;
+    margin-top: 15px;
+}
+
+.btn:hover {    
+    cursor: pointer;
+    color: white;
+}
+
+.error-message {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1100px) {
+    .center-form {
+        width: 450px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .center-form {
+        height: 400px;
+        width: 310px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    
+    html {
+        font-size: 70%;
+    }
+
+    .center-form {
+        width: 280px;
+    }
 }
