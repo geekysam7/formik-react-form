@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/formik-react-form/static/css/main.e8b14a32.chunk.css",
+    "main.js": "/formik-react-form/static/js/main.cca70757.chunk.js",
+    "main.js.map": "/formik-react-form/static/js/main.cca70757.chunk.js.map",
+    "runtime-main.js": "/formik-react-form/static/js/runtime-main.710cc757.js",
+    "runtime-main.js.map": "/formik-react-form/static/js/runtime-main.710cc757.js.map",
+    "static/js/2.bcbdb140.chunk.js": "/formik-react-form/static/js/2.bcbdb140.chunk.js",
+    "static/js/2.bcbdb140.chunk.js.map": "/formik-react-form/static/js/2.bcbdb140.chunk.js.map",
+    "index.html": "/formik-react-form/index.html",
+    "precache-manifest.395b09aa0c9ba5013b8b80988ef3f9a2.js": "/formik-react-form/precache-manifest.395b09aa0c9ba5013b8b80988ef3f9a2.js",
+    "service-worker.js": "/formik-react-form/service-worker.js",
+    "static/css/main.e8b14a32.chunk.css.map": "/formik-react-form/static/css/main.e8b14a32.chunk.css.map",
+    "static/js/2.bcbdb140.chunk.js.LICENSE.txt": "/formik-react-form/static/js/2.bcbdb140.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/formik-react-form/static/media/taylor_swift_3.cf9829c8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.710cc757.js",
+    "static/js/2.bcbdb140.chunk.js",
+    "static/css/main.e8b14a32.chunk.css",
+    "static/js/main.cca70757.chunk.js"
+  ]
+}
